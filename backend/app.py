@@ -5,12 +5,12 @@ import json
 from google.cloud import aiplatform
 
 # ==== CONFIGURATION ====
-PINECONE_API_KEY = "pcsk_3Cg1Gn_FWVTEKKyNpJALAGnVRvamNd6GhDfHKMy4dgRR8zccUaQAmeCGjfvxYMedM5Tvi7"
-PINECONE_ENVIRONMENT = "us-east1-gcp "
-PINECONE_INDEX_NAME = "anatomy-index "
-VERTEX_PROJECT_ID = "medical-chatbot-465513"
-VERTEX_LOCATION = "us-central1"
-EMBEDDING_MODEL = "textembedding-gecko@003"
+PINECONE_API_KEY = ""
+PINECONE_ENVIRONMENT = ""
+PINECONE_INDEX_NAME = ""
+VERTEX_PROJECT_ID = ""
+VERTEX_LOCATION = ""
+EMBEDDING_MODEL = ""
 
 # ==== INIT ====
 app = Flask(__name__)
