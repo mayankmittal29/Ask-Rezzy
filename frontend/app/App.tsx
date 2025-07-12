@@ -1,0 +1,1 @@
+// This file is not needed with expo-router v5+ and can be removed.
